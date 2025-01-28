@@ -1,4 +1,4 @@
-// Description
+## Description
 Description
 Can you get sense of this code file and write the
 function that will decode the given encrypted file
@@ -6,7 +6,7 @@ content.
 Find the encrypted file here flag_info and code file
 might be good to analyze and get the flag.
 
-// Solution 1
+## Solution 1
 Get the file: wget https://artifacts.picoctf.net/c/421/readmycert.csr
 we're gonna get a certificate file with a encrypted code inside of it.
                 ** ENCRYPTED TEXT **
@@ -35,7 +35,7 @@ openssl req -in readmycert.csr -noout -text
 
 and then we're gonna get the flag.
 
-// Solustion 2
+## Solution 2
 Create a new txt file, with the encrypted text inside of it.
 
 MIICpzCCAY8CAQAwPDEmMCQGA1UEAwwdcGljb0NURntyZWFkX215Y2VydF8zYWE4
